@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Bhijan Neupane Cosmic Research Monogram</title>
+  <desc id="desc">BN monogram inside a cyan, magenta, and gold cosmic orbit.</desc>
+  <defs>
+    <linearGradient id="space" x1="18" y1="18" x2="238" y2="246" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#170035"/>
+      <stop offset=".48" stop-color="#060014"/>
+      <stop offset="1" stop-color="#140022"/>
+    </linearGradient>
+    <linearGradient id="spectrum" x1="48" y1="28" x2="210" y2="221" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset=".46" stop-color="#FF00FF"/>
+      <stop offset="1" stop-color="#FFD700"/>
+    </linearGradient>
+    <linearGradient id="letters" x1="82" y1="61" x2="180" y2="191" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".42" stop-color="#BEFCFF"/>
+      <stop offset="1" stop-color="#FFD5FF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="62" fill="url(#space)"/>
+  <circle cx="68" cy="65" r="54" fill="#00F5FF" opacity=".16" filter="url(#soft)"/>
+  <circle cx="197" cy="178" r="63" fill="#FF00FF" opacity=".14" filter="url(#soft)"/>
+  <circle cx="132" cy="122" r="85" fill="none" stroke="url(#spectrum)" stroke-width="5" opacity=".78" filter="url(#glow)"/>
+  <g fill="none" stroke="url(#spectrum)" stroke-width="6" stroke-linecap="round" opacity=".93">
+    <ellipse cx="128" cy="129" rx="100" ry="37" transform="rotate(-23 128 129)"/>
+    <ellipse cx="128" cy="129" rx="100" ry="37" transform="rotate(53 128 129)"/>
+  </g>
+  <circle cx="199" cy="63" r="8" fill="#FFD700" filter="url(#glow)"/>
+  <circle cx="54" cy="179" r="6" fill="#00F5FF" filter="url(#glow)"/>
+  <circle cx="75" cy="41" r="3" fill="#fff" opacity=".86"/>
+  <circle cx="212" cy="133" r="3" fill="#fff" opacity=".78"/>
+  <text x="128" y="154" text-anchor="middle" fill="url(#letters)" font-size="80" font-weight="800" font-family="Arial, Helvetica, sans-serif" letter-spacing="-8">BN</text>
+  <path d="M77 177h102" stroke="#00F5FF" stroke-width="3" opacity=".65"/>
+  <text x="128" y="198" text-anchor="middle" fill="#F8F1FF" font-size="12" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="3">RESEARCH</text>
+</svg>
