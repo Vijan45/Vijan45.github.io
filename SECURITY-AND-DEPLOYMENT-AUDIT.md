@@ -39,7 +39,7 @@ GitHub Pages HTTPS enforcement was not changed. GitHub reports it disabled, and 
 
 Current workflows are GitHub-managed CodeQL and the legacy Pages build/deployment workflow. No user-authored workflow file exists on `main`. The most recent CodeQL and Pages runs audited on 2026-07-28 completed successfully.
 
-The default workflow token permission is read-only, and workflows cannot approve pull-request reviews. The repository has one deployment environment (`github-pages`) and no repository webhooks. GitHub App installations could not be enumerated: the authenticated OAuth token has repository administration scopes but the installations endpoint returned HTTP 403 because it was not authorized to a GitHub App. No integrations were removed or changed.
+The default workflow token permission is read-only, and workflows cannot approve pull-request reviews. The repository has one deployment environment (`github-pages`) and no repository webhooks. Check-run metadata identifies `GitGuardian` and `GitHub Actions` integrations. A full installation-level GitHub App inventory could not be enumerated: the authenticated OAuth token has repository administration scopes, but the installations endpoint returned HTTP 403 because it was not authorized to a GitHub App. No integrations were removed or changed.
 
 The README describes a scheduled publication-update workflow, but no corresponding workflow file is present on `main`. The static publication data remains deployed, and this audit does not add or restore a workflow that could require an unverified external secret.
 
@@ -102,4 +102,4 @@ The ruleset does not require an outside reviewer or approval, so the repository 
 - Linear history was not required because all three merge methods remain enabled.
 - Status checks were not added because there is no user-authored CI workflow on the default branch.
 - Secret-scanning non-provider patterns and validity checks remain disabled because they were not requested and may depend on plan or feature availability.
-- GitHub App installation inventory requires a token authorized to a GitHub App and could not be completed through the authenticated CLI token.
+- Check-run providers were recorded, but a full GitHub App installation inventory requires a token authorized to a GitHub App and could not be completed through the authenticated CLI token.
