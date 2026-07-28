@@ -16,20 +16,20 @@ The account has repository admin access. Vulnerability alerts, automated securit
 
 ## Deployment and repository baseline
 
-| Item                            | Audited state                                  |
-| ------------------------------- | ---------------------------------------------- |
-| Visibility                      | Public                                         |
-| Default/production branch       | `main`                                         |
-| GitHub Pages                    | Enabled; status `built`; build type `legacy`   |
-| Pages source                    | `main`, repository root                        |
-| Pages URL recorded by GitHub    | `http://bhijan.com.np/`                        |
-| Custom domain                   | `bhijan.com.np`                                |
-| GitHub Pages HTTPS enforcement  | Disabled                                       |
-| Repository CNAME file           | `/CNAME`, containing `bhijan.com.np`           |
-| Deployment environment          | `github-pages`, restricted by branch policy    |
-| Latest recorded deployment      | Successful GitHub Pages deployment from `main` |
-| Cloudflare role                 | Reverse proxy/DNS in front of GitHub Pages     |
-| External DNS/Cloudflare changes | None                                           |
+| Item                            | Audited state                                                        |
+| ------------------------------- | -------------------------------------------------------------------- |
+| Visibility                      | Public                                                               |
+| Default/production branch       | `main`                                                               |
+| GitHub Pages                    | Enabled; status `built`; build type `legacy`                         |
+| Pages source                    | `main`, repository root                                              |
+| Pages URL recorded by GitHub    | `http://bhijan.com.np/`                                              |
+| Custom domain                   | `bhijan.com.np`                                                      |
+| GitHub Pages HTTPS enforcement  | Disabled                                                             |
+| Repository CNAME file           | `/CNAME`, containing `bhijan.com.np`                                 |
+| Deployment environments         | `github-pages`; empty `copilot` environment created during PR checks |
+| Latest recorded deployment      | Successful GitHub Pages deployment from `main`                       |
+| Cloudflare role                 | Reverse proxy/DNS in front of GitHub Pages                           |
+| External DNS/Cloudflare changes | None                                                                 |
 
 Live checks found Cloudflare anycast addresses for the apex and `www`. HTTPS returned HTTP 200 through Cloudflare while retaining GitHub Pages origin headers. The direct `https://vijan45.github.io/` URL redirected to the configured custom domain.
 
@@ -39,7 +39,7 @@ GitHub Pages HTTPS enforcement was not changed. GitHub reports it disabled, and 
 
 Current workflows are GitHub-managed CodeQL and the legacy Pages build/deployment workflow. No user-authored workflow file exists on `main`. The most recent CodeQL and Pages runs audited on 2026-07-28 completed successfully.
 
-The default workflow token permission is read-only, and workflows cannot approve pull-request reviews. The repository has one deployment environment (`github-pages`) and no repository webhooks. Check-run metadata identifies `GitGuardian` and `GitHub Actions` integrations. A full installation-level GitHub App inventory could not be enumerated: the authenticated OAuth token has repository administration scopes, but the installations endpoint returned HTTP 403 because it was not authorized to a GitHub App. No integrations were removed or changed.
+The default workflow token permission is read-only, and workflows cannot approve pull-request reviews. The repository began the audit with one deployment environment (`github-pages`) and has no repository webhooks. GitHub automatically created an empty `copilot` environment when pull-request checks began; it has no protection rules or deployment branch policy and was preserved. Check-run metadata identifies `GitGuardian` and `GitHub Actions` integrations. A full installation-level GitHub App inventory could not be enumerated: the authenticated OAuth token has repository administration scopes, but the installations endpoint returned HTTP 403 because it was not authorized to a GitHub App. No integrations were removed or changed.
 
 The README describes a scheduled publication-update workflow, but no corresponding workflow file is present on `main`. The static publication data remains deployed, and this audit does not add or restore a workflow that could require an unverified external secret.
 
@@ -68,16 +68,17 @@ No exposed credential was identified, so no rotation action is currently indicat
 
 ## Branch policy and administrative changes
 
-| Setting                  | Before       | After                                                                  |
-| ------------------------ | ------------ | ---------------------------------------------------------------------- |
-| Production ruleset       | None         | Active `Protect production branch` ruleset targeting `refs/heads/main` |
-| Branch deletion          | Not blocked  | Blocked by ruleset                                                     |
-| Force pushes             | Not blocked  | Blocked by ruleset                                                     |
-| Pull requests            | Not required | Required with 0 approvals                                              |
-| Review-thread resolution | Not required | Required                                                               |
-| Linear history           | Not required | Unchanged to preserve all enabled merge methods                        |
-| Required status checks   | None         | Unchanged; no user-authored CI workflow exists                         |
-| Delete merged branches   | Disabled     | Enabled                                                                |
+| Setting                  | Before         | After                                                                       |
+| ------------------------ | -------------- | --------------------------------------------------------------------------- |
+| Production ruleset       | None           | Active `Protect production branch` ruleset targeting `refs/heads/main`      |
+| Branch deletion          | Not blocked    | Blocked by ruleset                                                          |
+| Force pushes             | Not blocked    | Blocked by ruleset                                                          |
+| Pull requests            | Not required   | Required with 0 approvals                                                   |
+| Review-thread resolution | Not required   | Required                                                                    |
+| Linear history           | Not required   | Unchanged to preserve all enabled merge methods                             |
+| Required status checks   | None           | Unchanged; no user-authored CI workflow exists                              |
+| Delete merged branches   | Disabled       | Enabled                                                                     |
+| Deployment environments  | `github-pages` | `github-pages` plus empty `copilot`, created automatically during PR checks |
 
 The ruleset does not require an outside reviewer or approval, so the repository owner can merge their own pull request after resolving any conversations. It does not change the Pages source or current deployment.
 
