@@ -1,4 +1,36 @@
-.DS_Store
+# Dependencies, generated output, and local caches
 node_modules/
+dist/
+build/
+coverage/
+.cache/
+
+# Environment files and local Cloudflare state
 .env
 .env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+.wrangler/
+wrangler.local.toml
+wrangler.local.jsonc
+
+# Credentials and private keys
+credentials.*
+secrets.*
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
