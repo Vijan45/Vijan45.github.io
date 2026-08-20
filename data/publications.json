@@ -1,86 +1,177 @@
 {
-  "updatedAt": "2026-06-25",
-  "source": "Google Scholar profile R-Six5gAAAAJ; verified publication snapshot",
+  "updatedAt": "2026-08-20",
+  "source": "ORCID 0009-0006-3132-2733",
   "publications": [
     {
-      "id": "calcination-driven-zno-2026",
-      "type": "Preprint",
-      "year": "2026",
-      "title": {
-        "en": "Calcination-driven phase evolution and morphology development in Buddleja paniculata-mediated ZnO-rich structures",
-        "ne": "Buddleja paniculata-आधारित ZnO-समृद्ध संरचनामा क्याल्सिनेसन-प्रेरित चरण विकास र आकृतिगत रूपान्तरण"
-      },
-      "description": {
-        "en": "A green synthesis study tracing how thermal treatment shapes ZnO-rich phase formation, bonding, and morphology.",
-        "ne": "हरित संश्लेषणमा तापीय उपचारले ZnO-समृद्ध चरण निर्माण, बन्धन र आकृतिलाई कसरी रूपान्तरण गर्छ भन्ने अध्ययन।"
-      },
-      "venue": "SSRN · Posted June 2026",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6926499",
-      "citations": 0
-    },
-    {
-      "id": "binder-enabled-zno-tio2-2026",
-      "type": "Preprint",
-      "year": "2026",
-      "title": {
-        "en": "Binder-Enabled Green ZnO/TiO₂ Bilayer Films on FTO for Structural, Optical, and Photocatalytic Applications",
-        "ne": "संरचनात्मक, प्रकाशीय र फोटोक्याटालिटिक अनुप्रयोगका लागि FTO मा बाइन्डर-सहायित हरित ZnO/TiO₂ द्विस्तरीय फिल्म"
-      },
-      "description": {
-        "en": "Plant-mediated ZnO films integrated with TiO₂ on FTO for structural ordering, optical response, and photocatalytic application.",
-        "ne": "संरचनात्मक क्रमबद्धता, प्रकाशीय प्रतिक्रिया र फोटोक्याटालिटिक प्रयोगका लागि FTO मा TiO₂ सँग एकीकृत वनस्पति-आधारित ZnO फिल्म।"
-      },
-      "venue": "SSRN · 10.2139/ssrn.6624624",
-      "url": "https://doi.org/10.2139/ssrn.6624624",
-      "citations": 0
-    },
-    {
-      "id": "diallyl-sulfide-2026",
+      "id": "doi:10.1016/j.rsurfi.2026.100931",
       "type": "Journal article",
       "year": "2026",
+      "publishedAt": "2026-11",
+      "title": {
+        "en": "Binder-enabled green ZnO/TiO2 bilayer coatings on FTO for structural, optical, and photocatalytic applications",
+        "ne": "Binder-enabled green ZnO/TiO2 bilayer coatings on FTO for structural, optical, and photocatalytic applications"
+      },
+      "description": {
+        "en": "Bhijan Neupane, Jeevan Ghimire, Hari Ram Shrestha, Suresh Kumar Dhungel",
+        "ne": "लेखक: Bhijan Neupane, Jeevan Ghimire, Hari Ram Shrestha, Suresh Kumar Dhungel"
+      },
+      "venue": "Results in Surfaces and Interfaces · https://doi.org/10.1016/j.rsurfi.2026.100931",
+      "url": "https://doi.org/10.1016/j.rsurfi.2026.100931",
+      "sources": [
+        "ORCID"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s11030-026-11644-w",
+      "type": "Journal article",
+      "year": "2026",
+      "publishedAt": "2026-07-04",
+      "title": {
+        "en": "A cheminformatics and DFT exploration of a brominated sulfonamide with nonlinear optical response and preliminary in silico bioactivity assessment",
+        "ne": "A cheminformatics and DFT exploration of a brominated sulfonamide with nonlinear optical response and preliminary in silico bioactivity assessment"
+      },
+      "description": {
+        "en": "Bhijan Neupane, Khakendra Basnet, Jeevan Ghimire, Suresh Kumar Dhungel",
+        "ne": "लेखक: Bhijan Neupane, Khakendra Basnet, Jeevan Ghimire, Suresh Kumar Dhungel"
+      },
+      "venue": "Molecular Diversity · https://doi.org/10.1007/s11030-026-11644-w",
+      "url": "https://doi.org/10.1007/s11030-026-11644-w",
+      "sources": [
+        "ORCID"
+      ]
+    },
+    {
+      "id": "doi:10.1007/s42452-026-09137-4",
+      "type": "Journal article",
+      "year": "2026",
+      "publishedAt": "2026-07-01",
+      "title": {
+        "en": "DFT-assisted spectroscopic characterization, reactivity analysis, and drug-likeness evaluation of ethyl 4-aminobenzoate for pharmaceutical applications",
+        "ne": "DFT-assisted spectroscopic characterization, reactivity analysis, and drug-likeness evaluation of ethyl 4-aminobenzoate for pharmaceutical applications"
+      },
+      "description": {
+        "en": "Bhijan Neupane, Jeevan Ghimire, Khakendra Basnet, Nabal Khadka, Prakash Man Shrestha, Suresh Prasad Gupta, Krishna Bahadur Rai",
+        "ne": "लेखक: Bhijan Neupane, Jeevan Ghimire, Khakendra Basnet, Nabal Khadka, Prakash Man Shrestha, Suresh Prasad Gupta, Krishna Bahadur Rai"
+      },
+      "venue": "Discover Applied Sciences · https://doi.org/10.1007/s42452-026-09137-4",
+      "url": "https://doi.org/10.1007/s42452-026-09137-4",
+      "sources": [
+        "ORCID"
+      ]
+    },
+    {
+      "id": "doi:10.21203/rs.3.rs-9113160/v1",
+      "type": "Preprint",
+      "year": "2026",
+      "publishedAt": "2026-04-02",
+      "title": {
+        "en": "A Cheminformatics and DFT Exploration of a Brominated Sulfonamide with Nonlinear Optical and Bioactivity Promise",
+        "ne": "A Cheminformatics and DFT Exploration of a Brominated Sulfonamide with Nonlinear Optical and Bioactivity Promise"
+      },
+      "description": {
+        "en": "Bhijan Neupane, Khakendra Basnet, Jeevan Ghimire, Suresh Kumar Dhungel",
+        "ne": "लेखक: Bhijan Neupane, Khakendra Basnet, Jeevan Ghimire, Suresh Kumar Dhungel"
+      },
+      "venue": "https://doi.org/10.21203/rs.3.rs-9113160/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-9113160/v1",
+      "sources": [
+        "ORCID"
+      ]
+    },
+    {
+      "id": "doi:10.1016/j.jmgm.2025.109159",
+      "type": "Journal article",
+      "year": "2026",
+      "publishedAt": "2026-01",
       "title": {
         "en": "Structural, electronic, and thermodynamic characterization with spectroscopic, topological, reactivity, and molecular docking studies of diallyl sulfide",
-        "ne": "डाइएलिल सल्फाइडको स्पेक्ट्रोस्कोपिक, टोपोलोजिकल, रिएक्टिभिटी तथा आणविक डकिङ अध्ययनसहित संरचनात्मक, इलेक्ट्रोनिक र तापगतिक विशेषता निर्धारण"
+        "ne": "Structural, electronic, and thermodynamic characterization with spectroscopic, topological, reactivity, and molecular docking studies of diallyl sulfide"
       },
       "description": {
-        "en": "A DFT-based investigation integrating spectroscopy, electronic structure, reactivity descriptors, and molecular docking.",
-        "ne": "स्पेक्ट्रोस्कोपी, इलेक्ट्रोनिक संरचना, रिएक्टिभिटी सूचक र आणविक डकिङलाई एकीकृत गर्ने DFT-आधारित अध्ययन।"
+        "en": "Bhijan Neupane, Khakendra Basnet, Raj Kumar Rai",
+        "ne": "लेखक: Bhijan Neupane, Khakendra Basnet, Raj Kumar Rai"
       },
-      "venue": "Journal of Molecular Graphics and Modelling · 142, 109159",
+      "venue": "Journal of Molecular Graphics and Modelling · https://doi.org/10.1016/j.jmgm.2025.109159",
       "url": "https://doi.org/10.1016/j.jmgm.2025.109159",
-      "citations": 0
+      "sources": [
+        "ORCID"
+      ]
     },
     {
-      "id": "carbonofluoridic-acid-2025",
+      "id": "doi:10.2139/ssrn.6926499",
+      "type": "Preprint",
+      "year": "2026",
+      "publishedAt": "2026",
+      "title": {
+        "en": "Calcination-driven phase evolution and morphology development in Buddleja paniculata-mediated ZnO-rich structures",
+        "ne": "Calcination-driven phase evolution and morphology development in Buddleja paniculata-mediated ZnO-rich structures"
+      },
+      "description": {
+        "en": "Bhijan Neupane, Jeevan Ghimire, Dinesh Shah",
+        "ne": "लेखक: Bhijan Neupane, Jeevan Ghimire, Dinesh Shah"
+      },
+      "venue": "https://doi.org/10.2139/ssrn.6926499",
+      "url": "https://doi.org/10.2139/ssrn.6926499",
+      "sources": [
+        "ORCID"
+      ]
+    },
+    {
+      "id": "doi:10.21203/rs.3.rs-9698111/v1",
+      "type": "Journal article",
+      "year": "2026",
+      "publishedAt": "2026",
+      "title": {
+        "en": "Quantum Chemical Evidence for Localized O1–C5=C4 Reactivity in 2,3-Dihydrofuran",
+        "ne": "Quantum Chemical Evidence for Localized O1–C5=C4 Reactivity in 2,3-Dihydrofuran"
+      },
+      "description": {
+        "en": "Khakendra Basnet, Jeevan Ghimire, Bhijan Neupane",
+        "ne": "लेखक: Khakendra Basnet, Jeevan Ghimire, Bhijan Neupane"
+      },
+      "venue": "Research Square · https://doi.org/10.21203/rs.3.rs-9698111/v1",
+      "url": "https://doi.org/10.21203/rs.3.rs-9698111/v1",
+      "sources": [
+        "ORCID"
+      ]
+    },
+    {
+      "id": "doi:10.3126/jncs.v45i2.83038",
       "type": "Journal article",
       "year": "2025",
+      "publishedAt": "2025-08-18",
       "title": {
         "en": "Quantum Chemical Exploration of Carbonofluoridic Acid's Structural, Electronic, and Spectroscopic Properties",
-        "ne": "कार्बोनोफ्लोरिडिक एसिडका संरचनात्मक, इलेक्ट्रोनिक र स्पेक्ट्रोस्कोपिक गुणहरूको क्वान्टम रासायनिक अन्वेषण"
+        "ne": "Quantum Chemical Exploration of Carbonofluoridic Acid's Structural, Electronic, and Spectroscopic Properties"
       },
       "description": {
-        "en": "Density functional theory analysis of structure, vibrational behaviour, frontier orbitals, and molecular reactivity.",
-        "ne": "संरचना, कम्पन व्यवहार, फ्रन्टियर अर्बिटल र आणविक रिएक्टिभिटीको घनत्व कार्यात्मक सिद्धान्त विश्लेषण।"
+        "en": "Khakendra Basnet, Bhijan Neupane",
+        "ne": "लेखक: Khakendra Basnet, Bhijan Neupane"
       },
-      "venue": "Journal of Nepal Chemical Society · 45(2), 84–99",
+      "venue": "Journal of Nepal Chemical Society · https://doi.org/10.3126/jncs.v45i2.83038",
       "url": "https://doi.org/10.3126/jncs.v45i2.83038",
-      "citations": 0
+      "sources": [
+        "ORCID"
+      ]
     },
     {
-      "id": "cytosine-dft-2025",
+      "id": "doi:10.3126/arj.v5i1.73566",
       "type": "Journal article",
-      "year": "2025",
+      "year": "2024",
+      "publishedAt": "2024-12-31",
       "title": {
         "en": "A Computational DFT Insight into the Optimized Structure, Electronic Structures, Spectroscopic Analysis, and Thermodynamic Parameters of the Cytosine Molecule",
-        "ne": "साइटोसिन अणुको अनुकूलित संरचना, इलेक्ट्रोनिक संरचना, स्पेक्ट्रोस्कोपिक विश्लेषण र तापगतिक परिमाणमाथि कम्प्युटेशनल DFT अन्तर्दृष्टि"
+        "ne": "A Computational DFT Insight into the Optimized Structure, Electronic Structures, Spectroscopic Analysis, and Thermodynamic Parameters of the Cytosine Molecule"
       },
       "description": {
-        "en": "A computational study of cytosine integrating optimized geometry, electronic structure, spectroscopy, and thermodynamic parameters.",
-        "ne": "अनुकूलित ज्यामिति, इलेक्ट्रोनिक संरचना, स्पेक्ट्रोस्कोपी र तापगतिक परिमाणलाई एकीकृत गर्ने साइटोसिनमाथिको कम्प्युटेशनल अध्ययन।"
+        "en": "Khakendra Basnet, Bhijan Neupane, Pima Gharti Magar, Roshika Uprety, Krishna Bahadur Rai",
+        "ne": "लेखक: Khakendra Basnet, Bhijan Neupane, Pima Gharti Magar, Roshika Uprety, Krishna Bahadur Rai"
       },
-      "venue": "Amrit Research Journal · 5(1)",
+      "venue": "Amrit Research Journal · https://doi.org/10.3126/arj.v5i1.73566",
       "url": "https://doi.org/10.3126/arj.v5i1.73566",
-      "citations": 0
+      "sources": [
+        "ORCID"
+      ]
     }
   ]
 }
