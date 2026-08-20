@@ -5,6 +5,7 @@
   "description": "GitHub Pages-ready English-first bilingual cosmic research portfolio for Bhijan Neupane.",
   "scripts": {
     "update:publications": "node scripts/update-publications.mjs",
-    "check": "node --check assets/app.js && node --check scripts/update-publications.mjs && node -e \"JSON.parse(require('fs').readFileSync('data/publications.json')); JSON.parse(require('fs').readFileSync('data/publication-overrides.json')); console.log('JSON and JavaScript checks passed.')\""
+    "check:publications": "node scripts/check-publications.mjs",
+    "check": "node --check assets/app.js && node --check scripts/update-publications.mjs && node --check scripts/check-publications.mjs && node -e \"JSON.parse(require('fs').readFileSync('data/publication-overrides.json'));\" && npm run check:publications"
   }
 }
